@@ -121,6 +121,8 @@ if( imc < 18.5) {
 //   let computador = opcoes[Math.floor(Math.random() * 3)]
 // Compare as jogadas e mostre quem ganhou.
 // ------------------------------------------------------------
+let opcoes = ['pedra', 'papel', 'tesoura']
+let computador = opcoes[Math.floor(Math.random() * 3)]
 
 
 
@@ -134,6 +136,19 @@ if( imc < 18.5) {
 //   4 e 3    = "D"
 //   2, 1, 0  = "F"
 // ------------------------------------------------------------
+let n = 10
+
+if (n >= 9) {
+    console.log("A")
+} else if (n < 9) {
+    console.log("B")
+} else if (n < 7) {
+    console.log("C")
+} else if (n < 5) {
+    console.log("D")
+} else {
+    console.log("F")
+}
 
 
 
