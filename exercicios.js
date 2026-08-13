@@ -59,6 +59,12 @@ else{
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
+let alunos = [
+    {nome: "Rodrigo", nota: [10, 10, 10]},
+    {nome: "Piter", nota: [7, 7, 7]},
+    {nome: "Lorenzo", nota: [5, 3, 1]}
+];
+
 
 
 
@@ -73,7 +79,12 @@ else{
 // Se for >= 18, mostre "Maior de idade".
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
-
+let idade = 35
+if(idade >= 18) {
+    console.log("Maior de idade")
+} else {
+    console.log("Menor de idade")
+}
 
 
 
