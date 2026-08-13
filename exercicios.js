@@ -21,14 +21,19 @@
 // ------------------------------------------------------------
 let number1 = 5
 let number2 = 5
-console.log(number1, number2)
+console.log(number1 + number2)
 
 // EXERCÍCIO 2 - Conversor de temperatura
 // Crie uma variável com um valor em Celsius.
 // Converta para Fahrenheit e mostre no console.
 // Fórmula: F = C * 9/5 + 32
 // ------------------------------------------------------------
+let C = 32
+let F = 0
 
+F = C * 9/5 + 32
+
+console.log(F)
 
 
 
