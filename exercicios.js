@@ -19,9 +19,9 @@
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
 // ------------------------------------------------------------
-
-
-
+let number1 = 5
+let number2 = 5
+console.log(number1, number2)
 
 // EXERCÍCIO 2 - Conversor de temperatura
 // Crie uma variável com um valor em Celsius.
