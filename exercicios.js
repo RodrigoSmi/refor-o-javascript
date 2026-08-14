@@ -214,7 +214,11 @@ for (let i = 10; i >= 0; i--) {
 // Mostre o resultado no console.
 // Exemplo: se N = 5, resultado = 1+2+3+4+5 = 15
 // ------------------------------------------------------------
-
+let numberr = 5
+let contador = 0
+for (let i = 0; i <= numberr; i++) {
+    console.log(contador = contador + i);
+}
 
 
 
