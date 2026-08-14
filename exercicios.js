@@ -59,11 +59,19 @@ else{
 // Se a média for >= 7, mostre "Aprovado".
 // Se não, mostre "Reprovado".
 // ------------------------------------------------------------
-let alunos = [
-    {nome: "Rodrigo", nota: [10, 10, 10]},
-    {nome: "Piter", nota: [7, 7, 7]},
-    {nome: "Lorenzo", nota: [5, 3, 1]}
-];
+function i (n1,n2,n3,m){
+n1 = Number(prompt("Nota 1\n: "))
+n2 = Number(prompt("Nota 2\n: "))
+n3 = Number(prompt("Nota 3\n: "))
+
+m = (n1 + n2 + n3 / 3)
+
+if (m>=7) {
+console.log("Aprovado")
+} else {
+console.log("Reprovado")
+}
+}
 
 
 
