@@ -199,7 +199,12 @@ for (let num = 1; num <= 10; num++) {
 // Mostre cada número no console.
 // No final, mostre "Feliz Ano Novo!" (ou qualquer mensagem).
 // ------------------------------------------------------------
-
+for (let i = 10; i >= 0; i--) {
+    console.log(i);
+    if(i == 0) {
+        console.log("Feliz ano novo!")
+    }
+}
 
 
 
